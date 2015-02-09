@@ -1,0 +1,44 @@
+html
+	head
+		title
+			admin-page
+		meta(charset="utf8")
+		link(rel="stylesheet" type="text/css" href="../sass/admin.css")
+	body
+		#admin
+			#search-condition
+				#search-tab
+					.user-conditon
+						用户条件
+					.find-location
+						找位置
+					.find-webpage
+						找网页
+					.title-content
+						标题内容
+				#input-content
+					.username
+						用户名
+						.username-input: input#username-content(placeholder="用户名")
+					.logitude
+						经度
+						.logitude-input: input#logitude-content(placeholder="经度")
+					.latitude
+						纬度
+						.latitude-input: input#latitude-content(placeholder="纬度")
+					.keyword
+						关键字
+						.keyword-input: input#keyword-content(placeholder="关键字")
+					.radius
+						半径
+						.radius-input: input#radius-content(placeholder="半径")
+					.search-button
+						查找
+		#tab-of-table
+			.message
+				消息
+			.topic
+				话题
+			.user
+				用户
+script(src="../js/admin.js")
