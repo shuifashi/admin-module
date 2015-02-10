@@ -4,3 +4,4 @@ admin/build/
 admin/.DS_Store
 *.log
 admin/*.sw*
+mygod
